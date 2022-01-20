@@ -1,0 +1,54 @@
+Shooting Targets (Id-5873)
+
+N shooting targets are placed in a two dimensional grid and their x and y co-ordinates are provided. The x and y co-ordinates are 
+integer values. When a bullet is fired along a straight line (either parallel to x-axis or y-axis) it eliminates all the targets 
+along it's path. Assuming a bullet can be fired from negative infinity to positive infinity along a straight line parallel to both x 
+and y-axis, find the minimum number of bullets that need to be fired to eliminate all targets.
+
+Boundary Condition(s):
+1 <= N <= 100
+-100 <= x, y <= 100
+
+Input Format:
+The first line contains N.
+The next N lines contain two integers(x and y) in each line separated by space(s).
+
+Output Format:
+The first line contains the minimum number of bullets that need to be fired to eliminate all targets.
+
+Example Input/Output 1:
+Input:
+9
+4 0
+4 1
+3 0
+2 1
+1 1
+-2 0
+1 2
+-1 -1
+-2 -1
+Output:
+4
+
+Explanation:
+The first bullet is fired parallel to X-axis through the line Y = 0
+The second bullet is fired parallel to X-axis through the line Y = 1
+The third bullet is fired parallel to X-axis through the line Y = -1
+The fourth bullet is fired parallel to X-axis through the line Y = 2
+
+Example Input/Output 2:
+Input:
+8
+2 3
+-5 -1
+0 4
+1 2
+7 2
+4 0
+3 5
+1 1
+Output:
+7
+
+Max Execution Time Limit: 5000 millisecs

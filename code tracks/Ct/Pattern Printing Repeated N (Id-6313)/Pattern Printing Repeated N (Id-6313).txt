@@ -1,0 +1,46 @@
+Pattern Printing Repeated N (Id-6313)
+
+The program must accept a string value S and an integer N as input. The program must print the pattern as shown in the Example 
+Input/Output section.
+
+Boundary Condition:
+1 <= Length of S <= 1000
+1 <= N <= 999
+
+Input Format:
+The first line contains the values of S and N separated by a space.
+
+Output Format:
+The first N lines contain the pattern as shown in the Example Input/Output section.
+
+Example Input/Output 1:
+Input:
+monopoly 4
+
+Output:
+m**l
+o*oy
+np**
+o***
+
+Example Input/Output 2:
+Input:
+environmentpollution 6
+
+Output:
+e****t****
+n***np***n
+v**e*o**o*
+i*m**l*i**
+rn***lt***
+o****u****
+
+Example Input/Output 3:
+Input:
+manifesto 2
+
+Output:
+mnfso
+aiet*
+
+Max Execution Time Limit: 5000 millisecs

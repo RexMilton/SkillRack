@@ -1,0 +1,52 @@
+Quadruplets - Maximum Product (Id-12007)
+ 
+TCS NQT
+ 
+Author: SkillRack
+
+
+The program must accept an array of N integers as the input. The program must print the maximum product of the quadruplets in the given 
+array as the output.
+The product of quadruplets (P, Q, R, S) equates to A[P] * A[Q] * A[R] * A[S].
+(0 <= P < Q < R < S < N)
+Boundary Condition(s):
+4 <= N <= 10^4
+-100 <= Each integer value <= 100
+Input Format:
+The first line contains N.
+The second line contains N integers separated by a space.
+Output Format:
+The first line contains an integer representing the maximum product of the quadruplets in the given array.
+Example Input/Output 1:
+Input:
+6
+-3 1 2 -2 5 6
+Output:
+180
+Explanation:
+All possible quadruplets and their products are given below.
+(-3, 1, 2, -2) = 12
+(-3, 1, 2, 5) = -30
+(-3, 1, 2, 6) = -36
+(-3, 1, -2, 5) = 30
+(-3, 1, -2, 6) = 36
+(-3, 1, 5, 6) = -90
+(-3, 2, -2, 5) = 60
+(-3, 2, -2, 6) = 72
+(-3, 2, 5, 6) = -180
+(-3, -2, 5, 6) = 180
+(1, 2, -2, 5) = -20
+(1, 2, -2, 6) = -24
+(1, 2, 5, 6) = 60
+(1, -2, 5, 6) = -60
+(2, -2, 5, 6) = -120
+The maximum product of the quadruplets is 180, which is printed as the output.
+Example Input/Output 2:
+Input:
+5
+-10 5 2 -6 -7
+Output:
+700
+
+Max Execution Time Limit: 500 millisecs
+

@@ -1,0 +1,5 @@
+n = int(input())
+l = sorted(map(int, input().split()))
+l = sorted(l, key=lambda i: (i//10) % 10)
+l = sorted(l, key=lambda i: i % 10)
+print(*l)
