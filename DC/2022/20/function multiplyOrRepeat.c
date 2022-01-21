@@ -14,6 +14,7 @@ char *multiplyOrRepeat(char *str)
         strcpy(b, q);
         q = strtok(NULL, " ");
     }
+
     // printf("%s %s",a,b);
     if (isdigit(a[0]) && isdigit(b[0]))
     {
