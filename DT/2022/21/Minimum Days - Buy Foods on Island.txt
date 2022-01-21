@@ -1,0 +1,64 @@
+Daily Test
+ 
+ProgramID- 14181
+   SkillRack
+
+Time Left: 23:59:59
+Minimum Days - Buy Foods on Island
+A boy is trapped on an island. There is only one shop on the island and it is open all days of the week except Sunday. He can buy a maximum of X units of food each day and he needs Y units of food to survive each day. The program must accept the values of X, Y and T as the input, where T represents the number of days he wants to survive on the island. The program must print the minimum number of days on which he needs to buy food from the shop so that he can survive the next T days. Consider Monday as the starting day on the island. If he cannot survive T days, then the program must print -1 as the output.
+
+Boundary Condition(s):
+1 <= X, Y <= 100
+1 <= T <= 1000
+
+Input Format:
+The first line contains X, Y and T separated by a space.
+
+Output Format:
+The first line contains an integer representing the minimum number of days on which he needs to buy food from the shop or -1.
+
+Example Input/Output 1:
+Input:
+5 2 12
+
+Output:
+5
+
+Explanation:
+Here X=5, Y=2 and T=12.
+The minimum number of days on which he needs to buy food from the shop is 5.
+One of the possible ways to survive 12 days is given below.
+Day 1: He buys 5 units of food and he consumes 2 units of food. Now he has 3 units of food.
+Day 2: He consumes 2 units of food. Now he has 1 unit of food.
+Day 3: He buys 5 units of food and he consumes 2 units of food. Now he has 4 units of food.
+Day 4: He consumes 2 units of food. Now he has 2 units of food.
+Day 5: He consumes 2 units of food. Now he has no food.
+Day 6: He buys 5 units of food and he consumes 2 units of food. Now he has 3 units of food.
+Day 7: He cannot buy food as it is Sunday. He consumes 2 units of food. Now he has 1 unit of food.
+Day 8: He buys 5 units of food and he consumes 2 units of food. Now he has 4 units of food.
+Day 9: He consumes 2 units of food. Now he has 2 units of food.
+Day 10: He consumes 2 units of food. Now he has no food.
+Day 11: He buys 5 units of food and he consumes 2 units of food. Now he has 3 units of food.
+Day 12: He consumes 2 units of food. Now he has 1 unit of food.
+
+Example Input/Output 2:
+Input:
+3 4 5
+
+Output:
+-1
+
+Example Input/Output 3:
+Input:
+4 3 20
+
+Output:
+15
+
+Example Input/Output 4:
+Input:
+1 1 10
+
+Output:
+-1
+Max Execution Time Limit: 50 millisecs
