@@ -1,0 +1,33 @@
+Daily Challenge
+ 
+ProgramID- 14810
+   SkillRack
+function reduceCharacterFrequency
+The function/method reduceCharacterFrequency accepts two arguments str and K representing a string value and an integer value respectively.
+
+The function/method reduceCharacterFrequency must remove the characters after their Kth occurrence in the given string(from left to right). Then the function must return the revised string as a new string.
+
+Your task is to implement the function reduceCharacterFrequency so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+aabbabcdccbab
+2
+
+Output:
+aabbcdc
+
+Explanation:
+Here the given string is aabbabcdccbab and K=2.
+After removing the characters that occur more than 2 times in the given string, the string becomes aabbcdc.
+
+Example Input/Output 2:
+Input:
+TOOLONGTOURtoolongtour
+2
+
+Output:
+TOOLNGTURtoolngtur
+Max Execution Time Limit: 50 millisecs
