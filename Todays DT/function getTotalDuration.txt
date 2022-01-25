@@ -1,0 +1,44 @@
+Daily Test
+ 
+ProgramID- 14870
+   SkillRack
+
+Time Left: 00:15:45
+function getTotalDuration
+The function/method getTotalDuration accepts an argument str representing a string value. The string str contains the duration of a certain number of videos (in 24-hr format HH:MM:SS) separated by a space.
+
+The function/method getTotalDuration must return the total duration of the videos in days, hours, minutes and seconds.
+
+Your task is to implement the function getTotalDuration so that the program runs successfully.
+
+The following structure is used to represent the Duration and is already defined in the default code (Do not write this definition again in your code).
+struct Duration
+{
+    int days;
+    int hours;
+    int minutes;
+    int seconds;
+};
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+01:50:30 23:30:15 00:05:08
+
+Output:
+1 1 25 53
+
+Explanation:
+1st video: 01:50:30
+2nd video: 23:30:15
+3rd video: 00:05:08
+The total duration of the 3 videos in days, hours, minutes and seconds is given below.
+1 day, 1 hour, 25 minutes and 53 seconds.
+
+Example Input/Output 2:
+Input:
+20:25:50 20:25:50 20:25:50 00:00:01
+
+Output:
+2 13 17 31
+Max Execution Time Limit: 50 millisecs
