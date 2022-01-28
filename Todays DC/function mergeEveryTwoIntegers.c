@@ -6,7 +6,6 @@ typedef struct BoundedArray
     int SIZE;
     long long int *arr;
 } boundedArray;
-
 boundedArray *mergeEveryTwoIntegers(int SIZE, int *arr)
 {
 }
