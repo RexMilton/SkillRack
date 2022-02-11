@@ -1,0 +1,46 @@
+Daily Challenge ProgramID- 14952  SkillRack
+function printTimeInSeconds with Varargs
+The program must accept 4 times T1, T2, T3 and T4 in 24-hour format as the input. The program must print the output based on the following conditions.
+- The program must print the time T1 in seconds.
+- Then the program must print the sum of T1 and T2 in seconds.
+- Then the program must print the sum of T1, T2 and T3 in seconds.
+- Then the program must print the sum of T1, T2, T3 and T4 in seconds.
+Please fill in the missing lines of code so that the program runs successfully.
+
+Example Input/Output 1:
+Input:
+00:10:00
+01:00:15
+02:15:30
+00:00:50
+
+Output:
+600
+4215
+12345
+12395
+
+Explanation:
+T1 = 00:10:00 = 600 seconds.
+T2 = 01:00:15 = 3615 seconds.
+T3 = 02:15:30 = 8130 seconds.
+T4 = 00:00:50 = 50 seconds.
+T1 in seconds = 600.
+T1 + T2 in seconds = 600+3615 = 4215.
+T1 + T2 + T3 in seconds = 600+3615+8130 = 12345.
+T1 + T2 + T3 + T4 in seconds = 600+3615+8130+50 = 12395.
+
+Example Input/Output 2:
+Input:
+00:00:01
+01:00:00
+12:59:59
+00:01:00
+
+Output:
+1
+3601
+50400
+50460
+Max Execution Time Limit: 50 millisecs
+
