@@ -6,6 +6,7 @@ typedef struct time
 {
     int hours, minutes, seconds;
 } Time;
+
 int main()
 {
     Time time1, time2, time3, time4;
