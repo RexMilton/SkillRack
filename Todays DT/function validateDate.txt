@@ -1,0 +1,48 @@
+Daily Test ProgramID- 14323  SkillRack
+
+function validateDate
+The function/method validateDate accepts an argument dateStr representing a string value which contains a date in the format "DD-MM-YYYY".
+
+The function/method validateDate must return 1 if the given date is valid. Else the function must return 0.
+
+Your task is to implement the function validateDate so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+26-08-2021
+
+Output:
+1
+
+Example Input/Output 2:
+Input:
+09-15-2010
+
+Output:
+0
+
+Explanation:
+Invalid month 15.
+
+Example Input/Output 3:
+Input:
+39-12-2100
+
+Output:
+0
+
+Explanation:
+Invalid date 39 in December.
+
+Example Input/Output 4:
+Input:
+29-02-2021
+
+Output:
+0
+
+Explanation:
+Invalid date 29 in February (2021 is not a leap year).
+Max Execution Time Limit: 50 millisecs
