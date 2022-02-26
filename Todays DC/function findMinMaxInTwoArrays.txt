@@ -1,0 +1,35 @@
+Daily Challenge ProgramID- 14309  SkillRack
+function findMinMaxInTwoArrays
+The function/method findMinMaxInTwoArrays accepts five arguments - SIZE1, arr1, SIZE2, arr2 and K. The integer SIZE1 represents the size of the integer array arr1. The integer SIZE2 represents the size of the integer array arr2. K represents an integer value.
+
+The function/method findMinMaxInTwoArrays must find the count of integers greater than K in the array arr1 as X and the count of integers smaller than K in the array arr2 as Y. Then the function must return an integer representing the maximum value between X and Y.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+5 6
+10 17 13 6 16
+15 8 23 6 33 78
+10
+
+Output:
+3
+
+Explanation:
+Here K = 10.
+There are 3 integers greater than 10 in the 1st array -> 17, 13 and 16.
+There are 2 integers smaller than 10 in the 2nd array -> 8 and 6.
+The maximum value between 3 and 2 is 3.
+Hence 3 is printed as the output.
+
+Example Input/Output 2:
+Input:
+7 6
+68 92 94 12 34 93 14
+90 27 37 26 12 83
+50
+
+Output:
+4
+Max Execution Time Limit: 50 millisecs
