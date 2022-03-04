@@ -1,0 +1,37 @@
+Daily Test ProgramID- 14995  SkillRack
+
+function findSumDifferentBase
+The function/method findSumDifferentBase accepts an argument str. The string str contains integers separated by a space, but the base of each integer is denoted by the preceding alphabet in that integer. The base values of the integers can be any of the following.
+B or b - Binary
+O or o - Octal
+D or d - Decimal
+H or h - Hexadecimal
+
+The function/method findSumDifferentBase must find the decimal equivalent of each integer in the given string. Then the function must return an integer representing the sum of the obtained decimal values.
+
+Your task is to implement the function findSumDifferentBase so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+b1110 d150 o23 H2AF
+
+Output:
+870
+
+Explanation:
+There are four integers in the given string.
+b1110 -> Binary to Decimal -> 14.
+d150 -> Decimal -> 150.
+o23 -> Octal to Decimal -> 19.
+H2AF -> Hexadecimal to Decimal -> 687.
+14 + 150 + 19 + 687 = 870.
+
+Example Input/Output 2:
+Input:
+D10 B10 O10 H10 hEF o67 b11 D89
+
+Output:
+422
+Max Execution Time Limit: 50 millisecs
