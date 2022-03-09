@@ -6,6 +6,26 @@ typedef struct BoundedArray
     int R, C;
     int **matrix;
 } boundedArray;
+
+boundedArray *getMatrixWithX(int r, int c, int x)
+{
+    struct BoundedArray *arr = malloc(sizeof(struct BoundedArray));
+    arr->R = r;
+    arr->C = c;
+    int **m = (int **)malloc(r * sizeof(int *));
+    for (int i = 0; i < r; i++)
+        m[i] = malloc(sizeof(int *) * c);
+    arr->matrix = m;
+    for (int i = 0; i < r; i++)
+    {
+        for (int j = 0; j < c; j++)
+        {
+            arr->matrix[i][j] = x;
+        }
+    }
+    return arr;
+}
+
 int main()
 {
     int R, C, X;
