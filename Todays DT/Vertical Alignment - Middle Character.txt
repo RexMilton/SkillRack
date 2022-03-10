@@ -1,0 +1,56 @@
+Daily Test ProgramID- 15070  SkillRack
+
+Vertical Alignment - Middle Character
+The program must accept N string values as the input. The length of each string is always odd. The program must print the N string values vertically so that the middle character of each string occurs on the same line. The empty spaces must be printed as asterisks.
+
+Boundary Condition(s):
+1 <= N <= 100
+1 <= Length of each string <= 99
+
+Input Format:
+The first line contains N.
+The next N lines, each contains a string value.
+
+Output Format:
+The lines contain the N string values vertically based on the given conditions.
+
+Example Input/Output 1:
+Input:
+4
+snake
+relaxed
+cat
+boats
+
+Output:
+*r**
+se*b
+nlco
+aaaa
+kxtt
+ee*s
+*d**
+
+Explanation:
+Here N = 4, so the given four string values are printed vertically(from top to bottom) based on the given conditions.
+
+Example Input/Output 2:
+Input:
+5
+tuesday
+tea
+morning
+tests
+skillrack
+
+Output:
+****s
+t*m*k
+u*oti
+etrel
+sensl
+daitr
+a*nsa
+y*g*c
+****k
+Max Execution Time Limit: 50 millisecs
