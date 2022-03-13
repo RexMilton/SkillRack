@@ -1,0 +1,42 @@
+Daily Test ProgramID- 14715  SkillRack
+
+function findStartingPosition
+The function/method findStartingPosition accepts four arguments R, C, matrix and str. The integers R and C represent the size of the character matrix. The given matrix contains the string str in any of its columns(i.e., the string str occurs exactly in one column in forward or reverse order).
+
+The function/method findStartingPosition must return an array of size 2 representing the position of the first character of the string in the matrix.
+
+Note: The first character and the last character of the given string are always distinct.
+
+Your task is to implement the function findStartingPosition so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+4 5
+a b c d e
+f l o i c
+k o o n o
+c c l d e
+cool
+
+Output:
+1 3
+
+Explanation:
+The string "cool" occurs in the 3rd column of the matrix(starting from the 1st row).
+Hence the output is
+1 3
+
+Example Input/Output 2:
+Input:
+4 5
+a a g d e
+f o y k y
+o v d o b
+f s c l r
+bye
+
+Output:
+3 5
+Max Execution Time Limit: 50 millisecs
