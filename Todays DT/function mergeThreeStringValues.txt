@@ -1,0 +1,40 @@
+Daily Test ProgramID- 15025  SkillRack
+
+function mergeThreeStringValues
+The function/method mergeThreeStringValues accepts three arguments str1, str2 and str3 representing three string values. All three string values represent the same string but each character is repeated a certain number of times.
+
+The function/method mergeThreeStringValues must merge the given three string values without any shuffle in the order of their occurrence. Then the function must return the merged string.
+
+Your task is to implement the function mergeThreeStringValues so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+kkkiiiiiiwwwiii
+kkiiiwwwwwiii
+kkkkiiwwiiiiii
+
+Output:
+kkkkkkkkkiiiiiiiiiiiwwwwwwwwwwiiiiiiiiiiii
+
+Explanation:
+str1 -> kkkiiiiiiwwwiii
+str2 -> kkiiiwwwwwiii
+str3 -> kkkkiiwwiiiiii
+kkk kk kkkk -> kkkkkkkkk
+iiiiii iii ii -> iiiiiiiiiii
+www wwwww ww -> wwwwwwwwww
+iii iii iiiiii -> iiiiiiiiiiii
+Hence the output is
+kkkkkkkkkiiiiiiiiiiiwwwwwwwwwwiiiiiiiiiiii
+
+Example Input/Output 2:
+Input:
+mmaango
+mannggo
+mangooo
+
+Output:
+mmmmaaaannnnggggooooo
+Max Execution Time Limit: 50 millisecs
