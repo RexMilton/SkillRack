@@ -1,0 +1,35 @@
+Daily Test ProgramID- 14344  SkillRack
+
+function addOrConcat
+The function/method addOrConcat accepts an argument str representing a string value that contains the integers and words separated by a plus symbol (+).
+
+The function/method addOrConcat must perform the following operations on the given string.
+- If two or more integers are separated by a plus symbol (+), then those integers must be replaced with their sum.
+- If two or more words are separated by a plus symbol (+), then those words must be combined into a single word.
+Finally, the function must return the resulting string as the output.
+Note:
+- Each integer value will be from 1 to 10^6.
+- Each word contains only alphabets.
+
+Your task is to implement the function addOrConcat so that the program runs successfully.
+
+IMPORTANT: Do not write the main() function as it is already defined.
+
+Example Input/Output 1:
+Input:
+5+10+rats+cats+25+monkeys+50+100+donkeys
+
+Output:
+15+ratscats+25+monkeys+150+donkeys
+
+Explanation:
+Here the given string is 5+10+rats+cats+25+monkeys+50+100+donkeys.
+After performing the addition and concatenation operations, the resulting string becomes 15+ratscats+25+monkeys+150+donkeys.
+
+Example Input/Output 2:
+Input:
+a+b+c+d+1+2+3+4+5+alphabets+numbers
+
+Output:
+abcd+15+alphabetsnumbers
+Max Execution Time Limit: 50 millisecs
