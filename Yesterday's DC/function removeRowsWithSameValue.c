@@ -9,6 +9,24 @@ typedef struct BoundedArray
 
 boundedArray* removeRowsWithSameValue(int R, int C, int *matrix)
 {
+    boundedArray *new = (boundedArray*)malloc(sizeof(boundedArray));
+    new->R = 0;
+    new->C = C;
+    new->matrix = (int**)malloc(sizeof(int *) * R);
+    int row, col, notSame;
+    for(row=0; row<R; row++) {
+        notSame = 0;
+        for(col=1; col<C; col++) {
+            if(*(matrix+(row*C) + col) != *(matrix+(row*C) + col - 1)) { notSame = 1; break; }
+        }
+        if(notSame) {
+            new->matrix[new->R] = (int*)malloc(sizeof(int) * C);
+            for(col=0; col<C; col++) { new->matrix[new->R][col] = *(matrix+(row*C)+col); }
+            new->R++;
+        }
+    }
+    if(new->R == 0) { new->R= 1; new->C=1; new->matrix[0] = (int*)malloc(sizeof(int)); new->matrix[0][0] = -1; }
+    return new;
 } // End of removeRowsWithSameValue function
 
 int main()
