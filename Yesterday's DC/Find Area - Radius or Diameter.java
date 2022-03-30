@@ -7,6 +7,13 @@ class Circle {
     public Circle(int radius) {
         this.radius = radius;
     }
+    public Circle(double diameter){
+        this.radius=diameter/2;
+    }
+    public double getArea(){
+        return ((22*radius*radius)/7);
+    } 
+
 } // end of Circle class
 
 public class Hello {
