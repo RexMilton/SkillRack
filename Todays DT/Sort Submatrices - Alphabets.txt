@@ -1,0 +1,77 @@
+Daily Test ProgramID- 13619  SkillRack
+
+Sort Submatrices - Alphabets
+The program must accept a character matrix of size R*C and an integer K as the input. The matrix contains only lower case alphabets. The values of R and C are always divisible by K. For each K*K submatrix in the given matrix, the program must sort the alphabets in the submatrix. Then the program must print the revised matrix as the output.
+
+Boundary Condition(s):
+2 <= R, C, K <= 50
+
+Input Format:
+The first line contains R and C separated by a space.
+The next R lines, each contains C characters separated by a space.
+The R+2nd line contains K.
+
+Output Format:
+The first R lines, each contains C characters separated by a space.
+
+Example Input/Output 1:
+Input:
+6 9
+d e f o y j r q p
+i h g u t t o n m
+a b c o s l l k j
+s m m i h g l y j
+m u b f e d e h b
+l p t c b a w t x
+3
+
+Output:
+a b c j l o j k l
+d e f o s t m n o
+g h i t u y p q r
+b l m a b c b e h
+m m p d e f j l t
+s t u g h i w x y
+
+Explanation:
+Here R = 6, C = 9 and K = 3.
+After sorting the alphabets in each 3*3 submatrix, the matrix becomes
+a b c j l o j k l
+d e f o s t m n o
+g h i t u y p q r
+b l m a b c b e h
+m m p d e f j l t
+s t u g h i w x y
+
+Example Input/Output 2:
+Input:
+4 4
+l k o p
+i j n m
+d c g h
+a b f e
+2
+
+Output:
+i j m n
+k l o p
+a b e f
+c d g h
+
+Example Input/Output 3:
+Input:
+5 5
+x d z g g
+l f o t q
+l x a o x
+t n h c d
+p y x j k
+5
+
+Output:
+a c d d f
+g g h j k
+l l n o o
+p q t t x
+x x x y z
+Max Execution Time Limit: 50 millisecs
