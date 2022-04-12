@@ -1,7 +1,8 @@
 {
     "files.associations": {
         "iostream": "cpp",
-        "stdlib.h": "c"
+        "stdlib.h": "c",
+        "random": "c"
     },
     "python.formatting.provider": "black"
 }
